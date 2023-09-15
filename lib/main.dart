@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Reddit Clone',
       theme: Pallete.darkModeAppTheme,
-      home: LoginScreen(),
+      home: const LoginScreen(),
     );
   }
 }
